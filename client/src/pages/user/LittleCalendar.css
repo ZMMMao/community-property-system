@@ -1,0 +1,37 @@
+.little-calendar-container {
+  width: 400px;
+  height: 240px;
+  margin: 0 auto;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.little-calendar-container .ant-picker-calendar {
+  height: 100% !important;
+  min-height: unset !important;
+  width: 100% !important;
+}
+.little-calendar-container .ant-picker-panel {
+  height: 200px !important;
+  min-height: unset !important;
+}
+.little-calendar-container .ant-picker-content {
+  height: 200px !important;
+}
+.little-calendar-container .ant-picker-content table {
+  height: 200px !important;
+}
+.little-calendar-container .ant-badge-status-text {
+  display: none !important;
+}
+.little-calendar-container .ant-picker-cell {
+  height: 50px !important;
+  min-height: 50px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+.little-calendar-container .ant-picker-calendar-date {
+  min-height: 50px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
